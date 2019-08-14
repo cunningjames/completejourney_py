@@ -1,9 +1,17 @@
 from setuptools import setup, find_packages
 
+from os import path
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+
 setup(
     name='completejourney_py',
-    version='0.0.1',
+    version='0.0.2',
     description='Data from R package completejourney',
+    long_description=long_description,
     author='James Cunningham',
     author_email='james@notbadafterall.com',
     packages=find_packages(include=['completejourney_py', 'completejourney_py.*']),
