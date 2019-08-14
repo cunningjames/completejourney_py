@@ -12,6 +12,7 @@ setup(
     version='0.0.2',
     description='Data from R package completejourney',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     author='James Cunningham',
     author_email='james@notbadafterall.com',
     packages=find_packages(include=['completejourney_py', 'completejourney_py.*']),
