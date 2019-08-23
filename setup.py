@@ -16,6 +16,7 @@ setup(
     author='James Cunningham',
     author_email='james@notbadafterall.com',
     packages=find_packages(include=['completejourney_py', 'completejourney_py.*']),
+    python_requires=">=3.6.0",
     install_requires=['pandas>=0.25.0', 'pyarrow>=0.11.0'],
     setup_requires=['pytest-runner', 'flake8'],
     tests_require=['pytest'],
