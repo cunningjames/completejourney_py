@@ -1,6 +1,12 @@
 from typing import Dict, List, Optional, Sequence, Union
 import pandas as pd
-from importlib import resources
+import sys
+
+# Python 3.8 compatibility for importlib.resources
+if sys.version_info >= (3, 9):
+    from importlib import resources
+else:
+    import importlib_resources as resources
 
 def get_data(which: Optional[Union[str, Sequence[str]]] = None) -> Dict[str, pd.DataFrame]:
     """Load datasets from the Complete Journey grocery transaction data.
@@ -75,8 +81,14 @@ def get_data(which: Optional[Union[str, Sequence[str]]] = None) -> Dict[str, pd.
         which = list(which)
 
     def load_dataset(src: str) -> pd.DataFrame:
-        data_file = resources.files("completejourney_py").joinpath(f"data/{src}.parquet")
-        with data_file.open("rb") as f:
-            return pd.read_parquet(f)
+        # Python 3.8 compatible approach
+        if sys.version_info >= (3, 9):
+            data_file = resources.files("completejourney_py").joinpath(f"data/{src}.parquet")
+            with data_file.open("rb") as f:
+                return pd.read_parquet(f)
+        else:
+            # Python 3.8 compatibility
+            with resources.open_binary("completejourney_py.data", f"{src}.parquet") as f:
+                return pd.read_parquet(f)
     
     return dict(map(lambda src: (src, load_dataset(src)), which))
