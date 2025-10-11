@@ -40,13 +40,18 @@ jobs:
     - name: Install package and documentation dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -e .
-        pip install mkdocs mkdocs-material mkdocs-jupyter mkdocstrings[python] pymdownx-superfences
+        echo "Installing package in editable mode..."
+        pip install -e . --verbose
+        echo "Installing documentation dependencies..."
+        pip install mkdocs mkdocs-material mkdocs-jupyter "mkdocstrings[python]" pymdown-extensions
 
     - name: Verify package installation
       run: |
+        echo "Testing package import..."
         python -c "import completejourney_py; print('Package ready for docs')"
         python -c "from completejourney_py import get_data; print('get_data available for examples')"
+        echo "Checking installed packages..."
+        pip list | grep -E "(mkdocs|completejourney)"
 
     - name: Build MkDocs site
       run: |
