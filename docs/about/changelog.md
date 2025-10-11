@@ -6,15 +6,61 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.1.0] - 2025-01-11
+
+### 🎉 Major Documentation & CI/CD Release
+
+This release represents a significant enhancement from a basic data package to a comprehensive, production-ready toolkit for retail analytics education and exploration.
+
 ### Added
-- Comprehensive MkDocs documentation with cookbook examples
-- Four detailed analysis notebooks (top products, shopping frequency, coupon analysis, traffic patterns)
-- Enhanced API documentation with detailed examples
+
+**📚 Complete Documentation Ecosystem**
+- Comprehensive MkDocs documentation with Material theme
+- **7 Analysis Cookbooks** with detailed business insights:
+  - Dataset Summary Analysis: High-level overview of all 8 datasets
+  - Top Selling Products: Product performance and ranking analysis  
+  - Shopping Frequency Analysis: Customer behavior and visit patterns
+  - Coupon Analysis: Promotional effectiveness and redemption patterns
+  - Traffic Patterns: Store visit timing and seasonal trends
+  - Demographic Product Analysis: Purchase behavior by income/age/family structure
+  - Market Basket Analysis: Product associations and cross-selling opportunities
+- Interactive Jupyter notebooks with visualizations and strategic recommendations
+- User guide with getting started tutorials and dataset exploration
+- Complete API reference documentation
+- Professional about section with changelog and license
+
+**🔧 Production CI/CD Infrastructure**
+- GitHub Actions workflows for automated testing across Python 3.8-3.11
+- Automated documentation deployment to GitHub Pages
+- Package building and installation verification
+- Code quality checks with flake8 linting
+- Test coverage reporting with Codecov integration
+- Dependabot configuration for automated dependency updates
+
+**📊 Enhanced Package Metadata**
+- Professional README with GitHub Actions status badges
+- Comprehensive usage examples and business use cases
+- Links to live documentation and cookbook examples
+- CLAUDE.md guidance for AI-assisted development
 
 ### Changed
-- Improved docstring with comprehensive examples and dataset descriptions
+- **Documentation Structure**: Streamlined user-guide/datasets.ipynb to focus on data structure overview
+- **Version Badges**: Updated all documentation to reflect new version
+- **Package Description**: Enhanced with comprehensive business applications and use cases
 
-## [0.0.3] - 2025-01-XX
+### Technical Improvements
+- **Coverage**: 10,501+ lines of new documentation and analysis content
+- **Quality Assurance**: All PRs must pass comprehensive testing pipeline
+- **Automation**: Documentation automatically updates with code changes
+- **Professional Standards**: GitHub Actions status badges show project health
+
+### Business Value
+- **Educational Content**: 7 comprehensive analysis notebooks with real insights
+- **Strategic Applications**: Business recommendations for marketing, merchandising, and operations
+- **Multiple Approaches**: Different analysis frameworks with experimentation guidance
+- **Production Ready**: Complete CI/CD pipeline ensures reliability
+
+## [0.0.3] - 2025-01-10
 
 ### Added
 - Modern `pyproject.toml` configuration following PEP 621 standards
@@ -87,12 +133,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - ✅ Dataset documentation following R package style
 
 ### Future Roadmap
-
-**Version 0.1.0 - Enhanced Analysis**
-- Additional analysis examples and tutorials
-- Performance optimizations for large datasets
-- Integration with popular visualization libraries
-- Extended API for common analysis patterns
 
 **Version 0.2.0 - Advanced Features**
 - Data validation and quality checks

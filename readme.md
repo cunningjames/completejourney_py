@@ -1,7 +1,7 @@
 # The Complete Journey (Python)
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
-[![Package Version](https://img.shields.io/badge/version-0.0.3-green.svg)](https://github.com/jamescunningham/completejourney_py)
+[![Package Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/jamescunningham/completejourney_py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Test Package](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml/badge.svg)](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml)
 [![Documentation](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml/badge.svg)](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml)
