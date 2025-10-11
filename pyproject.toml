@@ -51,6 +51,14 @@ test = [
     "pytest-cov>=3.0",
     "pytest-xdist>=2.0",
 ]
+docs = [
+    "mkdocs-material>=8.0",
+    "mkdocs-jupyter>=0.21",
+    "mkdocstrings[python]>=0.19",
+    "mkdocs-mermaid2-plugin>=0.6.0",
+    "matplotlib>=3.5",
+    "seaborn>=0.11",
+]
 
 [project.urls]
 Homepage = "https://github.com/jamescunningham/completejourney_py"
