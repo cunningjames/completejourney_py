@@ -3,6 +3,8 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![Package Version](https://img.shields.io/badge/version-0.0.3-green.svg)](https://github.com/jamescunningham/completejourney_py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Test Package](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml/badge.svg)](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml)
+[![Documentation](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml/badge.svg)](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![mypy](https://img.shields.io/badge/mypy-checked-blue)](http://mypy-lang.org/)
 
@@ -56,6 +58,21 @@ products = data["products"]
 print(f"Loaded {len(transactions):,} transaction records")
 print(f"Covering {len(demographics):,} households")
 ```
+
+## 📚 Documentation
+
+Comprehensive documentation including analysis notebooks is available at: **[completejourney-py.readthedocs.io](https://jamescunningham.github.io/completejourney_py/)**
+
+### Cookbook Examples
+
+The documentation includes detailed analysis notebooks:
+- **Dataset Summary Analysis** - Overview of all 8 datasets
+- **Top Selling Products** - Product performance analysis  
+- **Shopping Frequency Analysis** - Customer behavior patterns
+- **Coupon Analysis** - Promotional effectiveness
+- **Traffic Patterns** - Store visit timing and trends
+- **Demographic Product Analysis** - Purchase behavior by customer segments
+- **Market Basket Analysis** - Product associations and cross-selling
 
 ## Datasets
 
