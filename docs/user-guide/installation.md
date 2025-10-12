@@ -245,8 +245,8 @@ plt.show()
 
 After installation:
 
-1. **[Getting Started](getting-started.md)** - Learn basic usage
-2. **[Dataset Overview](datasets.md)** - Understand the data structure  
+1. **[Getting Started](getting-started.ipynb)** - Learn basic usage
+2. **[Dataset Overview](datasets.ipynb)** - Understand the data structure  
 3. **[Cookbook Examples](../cookbook/top-products.ipynb)** - Follow analysis tutorials
 4. **[API Reference](../api/get_data.md)** - Detailed function documentation
 

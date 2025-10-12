@@ -44,11 +44,8 @@ The original Complete Journey concept and data structure were developed by 84.51
 
 When using this educational dataset, please cite:
 
-```
-84.51°. "The Complete Journey: A comprehensive view of household shopping behavior." 
-Available at: http://www.8451.com/area51/
-[Note: This implementation contains simulated data for educational purposes]
-```
+> 84.51°. (2015). *The Complete Journey: A comprehensive view of household shopping behavior* [Dataset concept]. 84.51°. http://www.8451.com/area51/  
+> [Note: This implementation contains simulated data for educational purposes]
 
 ### Data Usage Guidelines
 
@@ -73,6 +70,7 @@ Available at: http://www.8451.com/area51/
 ### Original R Package
 
 The original R implementation is available at:
+
 - **Repository**: [github.com/bradleyboehmke/completejourney](https://github.com/bradleyboehmke/completejourney)
 - **Author**: Bradley Boehmke
 - **License**: See original repository for licensing terms
@@ -122,12 +120,14 @@ For real data needs, contact 84.51° directly about their actual datasets and li
 ### Package Issues
 
 For issues with the Python package:
+
 - **GitHub Issues**: [github.com/jamescunningham/completejourney_py/issues](https://github.com/jamescunningham/completejourney_py/issues)
 - **Package Author**: James Cunningham
 
 ### Data Questions
 
 For questions about the underlying dataset:
+
 - **Data Provider**: [84.51°](http://www.8451.com/)
 - **Original Analysis**: [Bradley Boehmke's documentation](https://bradleyboehmke.github.io/completejourney/)
 

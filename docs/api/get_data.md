@@ -201,6 +201,6 @@ All datasets are sourced from 84.51° "The Complete Journey" project:
 
 ## See Also
 
-- [Dataset Overview](../user-guide/datasets.md) - Detailed information about each dataset
-- [Getting Started](../user-guide/getting-started.md) - Basic usage patterns
+- [Dataset Overview](../user-guide/datasets.ipynb) - Detailed information about each dataset
+- [Getting Started](../user-guide/getting-started.ipynb) - Basic usage patterns
 - [Cookbook Examples](../cookbook/top-products.ipynb) - Step-by-step analysis tutorials

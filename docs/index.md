@@ -118,8 +118,8 @@ flowchart TD
 
 ## What's Next?
 
-- **[Getting Started](user-guide/getting-started.md)** - Installation and basic usage
-- **[Dataset Guide](user-guide/datasets.md)** - Detailed exploration of each dataset
+- **[Getting Started](user-guide/getting-started.ipynb)** - Installation and basic usage
+- **[Dataset Guide](user-guide/datasets.ipynb)** - Detailed exploration of each dataset
 - **[Cookbook](cookbook/top-products.ipynb)** - Step-by-step analysis examples
 - **[API Reference](api/get_data.md)** - Complete function documentation
 

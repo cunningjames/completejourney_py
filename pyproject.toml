@@ -10,10 +10,12 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [
-    {name = "James Cunningham", email = "james@notbadafterall.com"}
+    {name = "James Cunningham", email = "james@notbadafterall.com"},
+    {name = "Brad Boehmke", email = "bradleyboehmke@gmail.com"}
 ]
 maintainers = [
-    {name = "James Cunningham", email = "james@notbadafterall.com"}
+    {name = "James Cunningham", email = "james@notbadafterall.com"},
+    {name = "Brad Boehmke", email = "bradleyboehmke@gmail.com"}
 ]
 keywords = ["data", "retail", "grocery", "transactions", "complete journey"]
 classifiers = [

@@ -184,11 +184,9 @@ coupons → coupon_redemptions
 The original concept and data structure are from [84.51°](http://www.8451.com/area51/), with additional insights available at the [Complete Journey project page](https://bradleyboehmke.github.io/completejourney/).
 
 **Citation for Educational Use:**
-```
-84.51°. "The Complete Journey: A comprehensive view of household shopping behavior." 
-Available at: http://www.8451.com/area51/
-[Note: This implementation contains simulated data for educational purposes]
-```
+
+> 84.51°. (2015). *The Complete Journey: A comprehensive view of household shopping behavior* [Dataset concept]. 84.51°. http://www.8451.com/area51/  
+> [Note: This implementation contains simulated data for educational purposes]
 
 ## Requirements
 

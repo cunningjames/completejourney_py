@@ -36,8 +36,8 @@ The built site will be in the `site/` directory.
 docs/
 ├── index.md                    # Homepage
 ├── user-guide/
-│   ├── getting-started.md      # Basic usage
-│   ├── datasets.md            # Dataset documentation  
+│   ├── getting-started.ipynb   # Basic usage
+│   ├── datasets.ipynb         # Dataset documentation  
 │   └── installation.md        # Installation guide
 ├── cookbook/                   # Analysis examples
 │   ├── top-products.ipynb      # Top selling products
@@ -54,6 +54,7 @@ docs/
 ## Notebook Guidelines
 
 For cookbook notebooks:
+
 - Include clear explanations and insights
 - Use realistic analysis scenarios
 - Provide actionable business insights
