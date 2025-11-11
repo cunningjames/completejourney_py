@@ -1,10 +1,10 @@
 site_name: Complete Journey Python Documentation
 site_description: Python data package for grocery store shopping transaction analysis
 site_author: James Cunningham, Brad Boehmke
-site_url: https://jamescunningham.github.io/completejourney_py
+site_url: https://cunningjames.github.io/completejourney_py
 
-repo_name: jamescunningham/completejourney_py
-repo_url: https://github.com/jamescunningham/completejourney_py
+repo_name: cunningjames/completejourney_py
+repo_url: https://github.com/cunningjames/completejourney_py
 edit_uri: edit/main/docs/
 
 theme:
@@ -89,7 +89,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jamescunningham/completejourney_py
+      link: https://github.com/cunningjames/completejourney_py
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/completejourney-py/
 

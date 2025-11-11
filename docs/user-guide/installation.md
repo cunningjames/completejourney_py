@@ -36,7 +36,7 @@ For contributors or users who want the latest features:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jamescunningham/completejourney_py.git
+git clone https://github.com/cunningjames/completejourney_py.git
 cd completejourney_py
 
 # Install in development mode
@@ -254,7 +254,7 @@ After installation:
 
 If you encounter installation issues:
 
-1. Check the [GitHub Issues](https://github.com/jamescunningham/completejourney_py/issues)
+1. Check the [GitHub Issues](https://github.com/cunningjames/completejourney_py/issues)
 2. Verify your Python version and dependencies
 3. Try installation in a fresh virtual environment
 4. Report bugs with your Python version, OS, and error messages

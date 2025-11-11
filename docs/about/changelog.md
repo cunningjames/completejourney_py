@@ -136,8 +136,8 @@ This package provides Python access to the Complete Journey dataset:
 **Python Package:**
 
 - **License**: MIT License
-- **Repository**: [GitHub](https://github.com/jamescunningham/completejourney_py)
+- **Repository**: [GitHub](https://github.com/cunningjames/completejourney_py)
 
 ---
 
-*For detailed technical changes, see the [Git commit history](https://github.com/jamescunningham/completejourney_py/commits/main).*
+*For detailed technical changes, see the [Git commit history](https://github.com/cunningjames/completejourney_py/commits/main).*

@@ -121,7 +121,7 @@ For real data needs, contact 84.51° directly about their actual datasets and li
 
 For issues with the Python package:
 
-- **GitHub Issues**: [github.com/jamescunningham/completejourney_py/issues](https://github.com/jamescunningham/completejourney_py/issues)
+- **GitHub Issues**: [github.com/cunningjames/completejourney_py/issues](https://github.com/cunningjames/completejourney_py/issues)
 - **Package Author**: James Cunningham
 
 ### Data Questions
