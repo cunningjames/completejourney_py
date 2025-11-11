@@ -64,10 +64,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jamescunningham/completejourney_py"
-Repository = "https://github.com/jamescunningham/completejourney_py"
-Issues = "https://github.com/jamescunningham/completejourney_py/issues"
-Documentation = "https://github.com/jamescunningham/completejourney_py"
+Homepage = "https://github.com/cunningjames/completejourney_py"
+Repository = "https://github.com/cunningjames/completejourney_py"
+Issues = "https://github.com/cunningjames/completejourney_py/issues"
+Documentation = "https://github.com/cunningjames/completejourney_py"
 
 [tool.setuptools.packages.find]
 include = ["completejourney_py*"]
