@@ -1,10 +1,10 @@
 # The Complete Journey (Python)
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
-[![Package Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/jamescunningham/completejourney_py)
+[![Package Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/cunningjames/completejourney_py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Test Package](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml/badge.svg)](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml)
-[![Documentation](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml/badge.svg)](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml)
+[![Test Package](https://github.com/jamescunningham/completejourney_py/actions/workflows/test.yml/badge.svg)](https://github.com/cunningjames/completejourney_py/actions/workflows/test.yml)
+[![Documentation](https://github.com/jamescunningham/completejourney_py/actions/workflows/docs.yml/badge.svg)](https://github.com/cunningjames/completejourney_py/actions/workflows/docs.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![mypy](https://img.shields.io/badge/mypy-checked-blue)](http://mypy-lang.org/)
 
@@ -61,7 +61,7 @@ print(f"Covering {len(demographics):,} households")
 
 ## 📚 Documentation
 
-Comprehensive documentation including analysis notebooks is available at: **[completejourney-py.readthedocs.io](https://jamescunningham.github.io/completejourney_py/)**
+Comprehensive documentation including analysis notebooks is available at: **[completejourney-py.readthedocs.io](https://cunningjames.github.io/completejourney_py/)**
 
 ### Cookbook Examples
 
