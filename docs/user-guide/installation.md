@@ -4,7 +4,7 @@ This page provides detailed installation instructions for the Complete Journey P
 
 ## Requirements
 
-- **Python**: 3.8 or higher
+- **Python**: 3.8-3.14
 - **Operating System**: Windows, macOS, or Linux
 - **Memory**: At least 4GB RAM recommended for loading all datasets
 - **Storage**: Approximately 200MB for package and data
@@ -121,14 +121,14 @@ Check your Python version:
 
 ```bash
 python --version
-# Should be 3.8 or higher
+# Should be 3.8 or higher (up to 3.14)
 ```
 
 If you have multiple Python versions:
 
 ```bash
 # Use specific Python version
-python3.9 -m pip install completejourney_py
+python3.14 -m pip install completejourney_py
 ```
 
 ## Dependency Information

@@ -190,7 +190,7 @@ The original concept and data structure are from [84.51°](http://www.8451.com/a
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.8-3.14
 - pandas >= 1.0.0
 - pyarrow >= 1.0.0
 
